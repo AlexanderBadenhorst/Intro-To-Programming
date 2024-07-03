@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Challenge #2</title>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+    <h2>Blank Webpage</h2>
+    <script>
+        let alphabet = "abcdefghijklmnopqrstuvwxyz";
+        var randomString = "";
+        var stringLength = 6;
+
+        for (var i = 0; i < stringLength; i++) {
+            randomString += alphabet[Math.floor(Math.random() * alphabet.length)];
+        }
+        console.log(randomString);
+    </script>
+
+</body>
+
+</html>
